@@ -13,7 +13,6 @@ function PostData() {
             console.log(response)
         })
     }
-
     const handleUpdate = (e) => {
         e.preventDefault();
         axios.put("https://jsonplaceholder.typicode.com/users/1",inputData)
