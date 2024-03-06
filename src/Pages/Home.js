@@ -1,10 +1,12 @@
 import React from 'react'
+import Product from '../Components/Product'
 // import { Route, Routes } from 'react-router-dom'
 
 function Home() {
   return (
     <>
-      <h1>this is Home page </h1>
+      <h4>Welcom to the Redux Toolkit Store</h4>
+        <Product/>
     </>
   )
 }

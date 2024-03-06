@@ -6,8 +6,7 @@ function ProductDetail() {
     console.log("params",params)
   return (
     <div>
-        
-      <h1>Inside Product Id  {params.id}</h1>
+      <h1>Inside Product Id {params.id}</h1>
     </div>
   )
 }
